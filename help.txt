@@ -1,0 +1,9 @@
+We use yarn instead of npm
+yarn start
+Yarn add swipper
+yarn add email.js
+Email - yarn add @emailjs/browser
+Icons - yarn add @iconscout/react-unicons
+yarn add react-scroll
+
+service ID - service_3y9mhfb
