@@ -25,7 +25,7 @@ const Intro = () => {
     <div className="intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hye I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey I Am</span>
           <span>Mohd Arman </span>
           <span>
             Highly skilled Software Developer with expertise in AI, ML, and Full
@@ -64,7 +64,7 @@ const Intro = () => {
         />
 
         <motion.div
-          initial={{ top: "-4%", left: "68%" }}
+          initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
