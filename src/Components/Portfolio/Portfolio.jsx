@@ -2,6 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Tictoctoe from "../../img/tictoctoe.png";
+import Consolidate from "../../img/IT2.png";
+import WebScrape from "../../img/WebScrape.png";
+import SocialMedia from "../../img/SocialMedia.png";
+import Natours from "../../img/Natours.png";
 import Ecommerce from "../../img/ecomm.png";
 import LM from "../../img/LM.png"
 import ShopAI from "../../img/ShopAI6.png"
@@ -26,7 +30,19 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <img src={WebScrape} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Consolidate} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={SocialMedia} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={Tictoctoe} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Natours} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
